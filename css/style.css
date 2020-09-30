@@ -1,0 +1,313 @@
+body {
+	background: #FFF;
+	color: #444;
+}
+
+.clear {
+	clear: both !important;
+}
+
+::-webkit-selection {
+	color: #FFF;
+	background: #0F9;
+}
+
+::-moz-selection {
+	color: #FFF;
+	background: #0F9;
+}
+
+a {
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	text-decoration: none;
+}
+
+a:hover {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+h2.section {
+	display: block;
+	width: 100%;
+	padding: 25px 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #FFF;
+	font-weight: 100;
+	background: #666;
+	box-shadow: 5px 5px 6px #CCC;
+	-moz-box-shadow: 5px 5px 6px #CCC;
+	-webkit-box-shadow: 5px 5px 6px #CCC;
+}
+
+header {
+	width: 100%;
+	background: transparent url(../img/bkg-header.jpg) repeat top center;
+	background-attachment: fixed;
+	background-size: auto;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 80px 0 30px;
+}
+
+header #mypic {
+	border-radius: 50%;
+}
+
+header .center {
+	width: 600px;
+	margin: 0 auto;
+}
+
+header h1 {
+	font-size: 40px;
+	font-weight: 100;
+	color: #0F9;
+	margin: 20px 0;
+}
+
+header p {
+	font-size: 20px;
+	font-weight: 100;
+	color: #FFF;
+	margin: 10px 0;
+}
+
+header p em {
+	color: #0F9;
+}
+
+header ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 60px;
+}
+
+header ul li {
+	display: inline;
+	padding: 0 5px;
+}
+
+header ul li a {
+	display: inline-block;
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header ul li a:hover {
+	color: #0F9;
+}
+
+header ul li img {
+	width: 7px;
+}
+
+.spacer {
+	margin: 100px 0 50px !important;
+}
+
+#skills .lang {
+	width: 30%;
+	margin: 0 1.5% 100px;
+	text-align: center;
+	float: left;
+}
+
+#skills .lang .circle {
+	display: inline-block;
+	width: 100px;
+	height: 150px;
+	text-align: center;
+	border-radius: 100px;
+	background: #CCC;
+	cursor: -webkit-grab;
+	cursor: -moz-grab;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+#skills .lang .circle img {
+	margin-top: 40px;
+	width: 64px;
+}
+
+#skills .lang h3 {
+	font-weight: 100;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin: 5px 0 10px;
+}
+
+#skills .lang #android:hover {
+ 	background: #97C024;
+ 	-webkit-transition: all .3s ease-in-out;
+ 	-moz-transition: all .3s ease-in-out;
+ 	transition: all .3s ease-in-out;
+}
+
+#skills .lang #java:hover {
+ 	background: #FF35E0;
+ 	-webkit-transition: all .3s ease-in-out;
+ 	-moz-transition: all .3s ease-in-out;
+ 	transition: all .3s ease-in-out;
+}
+
+#skills .lang #html5:hover {
+ 	background: #E04F14;
+ 	-webkit-transition: all .3s ease-in-out;
+ 	-moz-transition: all .3s ease-in-out;
+ 	transition: all .3s ease-in-out;
+}
+
+#skills .lang #css3:hover {
+	background: #2277FF;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#skills .lang #xml:hover {
+	background: #F27520;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#skills .lang #javascript:hover {
+	background: #D6BA32;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#skills .lang #php:hover {
+	background: #5588EE;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#skills .lang #mysql:hover {
+	background: #EB0000;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#skills .lang #unixlinux:hover {
+	background: #AF4737;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+#websites {
+	text-align: center;
+}
+
+#websites figure {
+	margin: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#websites .spacer img {
+	box-shadow: 5px 5px 6px #CCC;
+	-moz-box-shadow: 5px 5px 6px #CCC;
+	-webkit-box-shadow: 5px 5px 6px #CCC;
+}
+
+#websites figcaption {
+	text-decoration: none;
+}
+
+#websites figcaption:hover {
+	color: #0F9;
+}
+
+#contact p {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 50px 0 20px;
+}
+
+#contact p a {
+	text-decoration: none;
+}
+
+#contact p a:hover {
+	color: #0F9;
+}
+
+#contact p span {
+	color: #FF0FB3;
+}
+
+#resume {
+	text-align: center;
+}
+
+#resume img {
+	margin: 50px;
+	box-shadow: -5px 5px 6px #777;
+	-moz-box-shadow: -5px 5px 6px #777;
+	-webkit-box-shadow: -5px 5px 6px #777;
+}
+
+footer {
+	width: 100%;
+	background: transparent url(../img/bkg-footer.jpg) repeat bottom center;
+	background-attachment: fixed;
+	background-size: 100% auto;
+	text-align: center;
+	padding: 30px 0px;
+}
+
+footer p {
+	font-size: 20px;
+	font-weight: 100;
+	color: #FFF;
+	margin: 10px 0;
+}
+
+footer p a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+footer p a:hover {
+	color: #0F9;
+}
+
+@media only screen and (max-width: 960px) {
+	header ul { display: none; }
+	#websites { width: 100%; padding-top: 0; }
+	footer { background-size: auto; text-align: center; }
+}
+
+@media only screen and (max-width: 600px) {
+	header .center { width: 95%; }
+	header p { word-wrap: break-word; }
+}
+
+@media only screen and (max-width: 475px) {
+	#skills .lang h3 { font-size: 20px; }
+}
+
+@media only screen and (max-width: 360px) {
+	#skills .lang h3 { font-size: 18px; }
+}
+
+@media only screen and (max-width: 320px) {
+	body { width: 320px; }
+	#skills .lang h3 { font-size: 16px; }
+	footer p { font-size: 15px; }
+}
