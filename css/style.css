@@ -1,6 +1,7 @@
 body {
 	background: #FFF;
 	color: #444;
+	font-family: 'Raleway', sans-serif !important;
 }
 
 .clear {
@@ -34,6 +35,7 @@ h2.section {
 	display: block;
 	width: 100%;
 	padding: 25px 0;
+	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 30px;
@@ -48,7 +50,7 @@ h2.section {
 header {
 	width: 100%;
 	background: transparent url(../img/bkg-header.jpg) repeat top center;
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	background-size: auto;
 	background-repeat: no-repeat;
 	text-align: center;
