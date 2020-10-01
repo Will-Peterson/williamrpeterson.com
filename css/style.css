@@ -51,7 +51,7 @@ header {
 	width: 100%;
 	background: transparent url(../img/bkg-header.jpg) repeat top center;
 	/* background-attachment: fixed; */
-	background-size: auto;
+	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
 	padding: 80px 0 30px;
