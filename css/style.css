@@ -103,7 +103,7 @@ a:hover {
 h2.section {
 	display: block;
 	width: 100%;
-	padding: 25px 0;
+	padding: 24px 0;
 	margin: 0;
 	text-align: center;
 	text-transform: uppercase;
@@ -182,35 +182,109 @@ CONTACT SECTION
 	width: auto;
 	height: 100vh;
 }
-#contact p {
-	width: 100%;
-	text-align: center;
-	margin: 0 auto;
-	padding: 50px 0 20px;
-}
 
-#contact p a {
-	text-decoration: none;
-}
-
-#contact p a:hover {
-	color: #0F9;
-}
-
-#contact p span {
-	color: #FF0FB3;
-}
-
-#resume {
-	text-align: center;
-}
-
-#resume img {
+/* #resume img {
 	margin: 50px;
 	box-shadow: -5px 5px 6px #777;
 	-moz-box-shadow: -5px 5px 6px #777;
 	-webkit-box-shadow: -5px 5px 6px #777;
+} */
+
+
+#contact {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
+.form-section {
+	height: 100vh;
+	width: 100%;
+	background-color: aliceblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.form-container {
+	width: 90%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 0px 0px 20px #000010;
+	background-color: white;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+.form-group {
+	width: 100%;
+	margin-top: 20px;
+	font-size: 20px;
+}
+input,
+textarea {
+	width: 100%;
+	padding: 5%;
+	font-size: 18px;
+	border: 1px solid rgba(128,128,128,0.199);
+	margin-top: 5px;
+}
+textarea {
+	resize: vertical;
+}
+button[type='submit'] {
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 20px;
+	font-size: 24px;
+	border-radius: 8px;
+	color: rgb(27,166,247);
+	text-align: center;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: .3s ease backgroud-color;
+}
+button[type='submit']:hover {
+	background-color: rgb(214,226,236);
+}
+#status {
+	width: 90%;
+	max-width: 500px;
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 8px;
+}
+#status.success {
+	background-color: rgb(211,250,153);
+	animation: status 4s ease forwards;
+}
+#status.error {
+	background-color: rgb(250,129,92);
+	color: white;
+	animation: status 4s ease forwards;
+}
+@keyframes status {
+	0%{
+		opacity: 1;
+		pointer-events: all;
+	}
+	90%{
+		opacity: 1;
+		pointer-events: all;
+	}
+	100%{
+		opacity: 0;
+		pointer-events: none;
+	}
+}
+
+
+
+
+
+
+
 
 /*
 
