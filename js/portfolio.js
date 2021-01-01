@@ -1,3 +1,23 @@
+// CHART
+const bars = document.querySelectorAll('.chart-bar');
+
+const options = {
+    root: null,
+    threshold: 0,
+};
+
+const observer = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('animate-bar');
+    });
+}, options);
+
+bars.forEach(bar => {
+    observer.observe(bar);
+});
+
+// FORM
 window.addEventListener("DOMContentLoaded", function() {
     var form = document.getElementById("portfolio-form");
     var status = document.getElementById("status");
