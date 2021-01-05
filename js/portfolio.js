@@ -1,21 +1,9 @@
 // CHART
-const bars = document.querySelectorAll('.chart-bar');
-
-const options = {
-    root: null,
-    threshold: 0,
-};
-
-const observer = new IntersectionObserver(function(entries, observer) {
-    entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add('animate-bar');
-    });
-}, options);
-
-bars.forEach(bar => {
-    observer.observe(bar);
-});
+  $('.chart').each(function(){
+		jQuery(this).find('.chart-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},2000);
+	});
 
 // FORM
 window.addEventListener("DOMContentLoaded", function() {
