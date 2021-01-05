@@ -6,11 +6,11 @@ body {
 	margin: 0px;
 }
 
-.clear {
+.fix-bottom {
 	clear: both !important;
 }
 
-.spacer {
+.fix-top {
 	margin: 100px 0 50px !important;
 }
 
