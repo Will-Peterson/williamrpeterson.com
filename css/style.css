@@ -210,15 +210,78 @@ h2.section {
 	height: 100vh;
 }
 
+#projects .popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	transition: 200ms ease-in-out;
+	border: 1px solid black;
+	border-radius: 10px;
+	z-index: 10;
+	background-color: white;
+	width: 600px;
+	max-width: 80%;
+}
+
+#projects .popup.active {
+	transform: translate(-50%, -50%) scale(1);
+}
+
+#projects .popup-header {
+	padding: 10px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+
+#projects .popup-header .title {
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+#projects .popup-header .close-button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+#projects .popup-body {
+	padding: 10px 15px;
+	font-size: 1.15rem;
+}
+
+#overlay {
+	position: fixed;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+	background-color: rgba(0,0,0,.7);
+	pointer-events: none;
+	transition: 200ms ease-in-out;
+}
+
+#overlay.active {
+	opacity: 1;
+	pointer-events: all;
+}
+
 #projects .card {
 	background: #e0e0e0;
 	box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-	transition: all 1s ease;
 	border-radius: 1rem !important;
 	width: 300px;
 	margin: 30px 20px;
 	border: none !important;
 	height: 275px;
+	cursor: pointer;
 }
 
 #projects .card-img {
@@ -227,23 +290,11 @@ h2.section {
 	border-top-right-radius: 1rem !important;
 }
 
-#projects .card-img img {
-	transition: all 1s ease;
-}
-
-#projects .card-img:hover img {
-	transform: scale(1.1);
-}
-
 #projects .card-container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-}
-
-#projects .card:hover {
-	transform: scale(1.1);
 }
 
 #contact {

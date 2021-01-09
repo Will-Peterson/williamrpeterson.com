@@ -76,15 +76,15 @@
 						<div class="chart-bar"></div>
 						<div class="chart-percent">85%</div>
 					</div>
-					<div class="chart" data-percent="70%">
+					<div class="chart" data-percent="60%">
 						<div class="chart-title"><span>ReactJS</span></div>
 						<div class="chart-bar"></div>
-						<div class="chart-percent">70%</div>
+						<div class="chart-percent">60%</div>
 					</div>
-					<div class="chart" data-percent="75%">
+					<div class="chart" data-percent="55%">
 						<div class="chart-title"><span>Angular</span></div>
 						<div class="chart-bar"></div>
-						<div class="chart-percent">75%</div>
+						<div class="chart-percent">55%</div>
 					</div>
 				</div>
 			</div>
@@ -93,50 +93,138 @@
 		<div id="projects">
 			<h2 class="section">Projects</h2>
 			<div class="fix-top">
+				<!-- pop up begin -->
+				<div class='popup' id='react-todo-app'>
+					<div class='popup-header'>
+						<div class='title'>React Todo App</div>
+						<button data-close-button class='close-button'>&times;</button>
+					</div>
+					<div class='popup-body'>
+						Technologies used:
+						<ul>
+							<li>html</li>
+							<li>css</li>
+							<li>javascript</li>
+							<li>reactjs</li>
+							<li>local storage</li>
+						</ul>
+						See it live on 
+						<a href='https://will-peterson.github.io/my-projects-app/' target='_blank'>GibHub Pages</a> or visit the 
+						<a href='https://github.com/will-peterson/my-projects-app' target='_blank'>GitHub repository</a>.
+					</div>
+				</div>
+				<div class='popup' id='react-weather-app'>
+					<div class='popup-header'>
+						<div class='title'>React Weather App</div>
+						<button data-close-button class='close-button'>&times;</button>
+					</div>
+					<div class='popup-body'>
+						Technologies used:
+						<ul>
+							<li>html</li>
+							<li>css</li>
+							<li>javascript</li>
+							<li>reactjs</li>
+							<li>weather api</li>
+						</ul>
+						See it live on 
+						<a href='https://will-peterson.github.io/weather-app/' target='_blank'>GibHub Pages</a> or visit the 
+						<a href='https://github.com/will-peterson/weather-app' target='_blank'>GitHub repository</a>.
+					</div>
+				</div>
+				<div class='popup' id='ascii'>
+					<div class='popup-header'>
+						<div class='title'>HTML/CSS Website</div>
+						<button data-close-button class='close-button'>&times;</button>
+					</div>
+					<div class='popup-body'>
+						Technologies used:
+						<ul>
+							<li>html</li>
+							<li>css</li>
+						</ul>
+						See it live 
+						<a href='http://www.asciicode.ws' target='_blank'>here</a> or visit the 
+						<a href='https://github.com/will-peterson/asciicode.ws' target='_blank'>GitHub repository</a>.
+					</div>
+				</div>
+				<div class='popup' id='toro-electric'>
+					<div class='popup-header'>
+						<div class='title'>WordPress Website</div>
+						<button data-close-button class='close-button'>&times;</button>
+					</div>
+					<div class='popup-body'>
+						Technologies used:
+						<ul>
+							<li>html</li>
+							<li>css</li>
+							<li>javascript</li>
+							<li>wordpress</li>
+							<li>php</li>
+						</ul>
+						See it live 
+						<a href='http://www.toroelectric.net' target='_blank'>here</a>.
+					</div>
+				</div>
+				<div class='popup' id='six-sigma'>
+					<div class='popup-header'>
+						<div class='title'>WordPress Website</div>
+						<button data-close-button class='close-button'>&times;</button>
+					</div>
+					<div class='popup-body'>
+						Technologies used:
+						<ul>
+							<li>html</li>
+							<li>css</li>
+							<li>javascript</li>
+							<li>wordpress</li>
+							<li>php</li>
+						</ul>
+						See it live 
+						<a href='http://www.sixsigmacatapults.com' target='_blank'>here</a>.
+					</div>
+				</div>
+				<div id='overlay'></div>
+				<!-- pop up end -->
 				<div class='card-container'>
-					<div class="card">
+					<div data-popup-target="#react-todo-app" class="card">
 						<div class='card-img'>
 							<img src="img/thumbnails/projects-app.png" class="card-img-top" alt="React Todo App">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title">React Todo App</h5>
-							<a href="https://will-peterson.github.io/my-projects-app/" target='_blank' class="btn btn-outline-secondary btn-sm">Visit</a>
 						</div>
 					</div>
-					<div class="card">
+					<div data-popup-target="#react-weather-app" class="card">
 						<div class='card-img'>
 							<img src="img/thumbnails/weather-app1.png" class="card-img-top" alt="React Weather App">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title">React Weather App</h5>
-							<a href="https://will-peterson.github.io/weather-app/" target='_blank' class="btn btn-outline-secondary btn-sm">Visit</a>
 						</div>
 					</div>
-					<div class="card">
+					<div data-popup-target="#ascii" class="card">
 						<div class='card-img'>
 							<img src="img/thumbnails/asciicodews.png" class="card-img-top" alt="HTML/CSS Website">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title">HTML/CSS Website</h5>
-							<a href="http://asciicode.ws" target='_blank' class="btn btn-outline-secondary btn-sm">Visit</a>
 						</div>
 					</div>
-					<div class="card">
+					<div data-popup-target="#toro-electric" class="card">
 						<div class='card-img'>
 							<img src="img/thumbnails/toroelectricnet.png" class="card-img-top" alt="WordPress Website">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title">WordPress Website</h5>
-							<a href="http://toroelectric.net" target='_blank' class="btn btn-outline-secondary btn-sm">Visit</a>
 						</div>
 					</div>
-					<div class="card">
+					<div data-popup-target="#six-sigma" class="card">
 						<div class='card-img'>
 							<img src="img/thumbnails/sixsigmacatapultscom.png" class="card-img-top" alt="WordPress Website">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title">WordPress Website</h5>
-							<a href="http://sixsigmacatapults.com" target='_blank' class="btn btn-outline-secondary btn-sm">Visit</a>
 						</div>
 					</div>
 				</div>
