@@ -66,7 +66,7 @@ a:hover {
 	font-weight: 100;
 	color: #FFF;
 	margin: 0.625rem 0;
-	padding: 0 50px;
+	padding: 0 3.125rem;
 }
 
 #header p em {
@@ -442,8 +442,8 @@ footer p a:hover {
 
 @media screen and (max-width: 414px) {
 	#header-info { top: 5vh; }
-	#header p { padding: 0 15px; }
-	footer p { font-size: 0.938rem; padding: 0 10px; }
+	#header p { padding: 0 0.938; }
+	footer p { font-size: 0.938rem; padding: 0 0.625rem; }
 }
 
 @media screen and (max-width: 375px) {
