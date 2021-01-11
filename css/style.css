@@ -43,6 +43,7 @@ a:hover {
 	height: 100vh;
 	background: transparent url(../img/bkg-header.jpg) no-repeat top center;
 	text-align: center;
+	background-size: cover;
 }
 
 #header #mypic {
