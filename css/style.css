@@ -423,6 +423,18 @@ footer p a:hover {
 	color: #0F9;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1024px) and (max-height: 600px) {
 	#header-info { top: 8vh; }
 }
@@ -432,25 +444,18 @@ footer p a:hover {
 	footer { background-size: auto; text-align: center; }
 }
 
-@media screen and (max-width: 600px) {
-	header .center { width: 95%; }
-	#header p { font-size: 1.5rem; }
-	#header ul { font-size: 1.5rem; }
-	#skills { padding-bottom: 0; }
-}
-
-@media screen and (max-width: 568px) and (max-height: 320px) {
-	#header-info { display: flex; top: 25px;}
-	#header #mypic { align-self: center; margin-left: 10px; }
-	#header p { font-size: 1rem; padding: 0; margin: 0; }
-	#header ul { font-size: 1rem; }
-}
-
-@media screen and (max-width: 667px) and (max-height: 375px) { 
+@media screen and (max-width: 896px) and (max-height: 414px) {
 	#header-info { display: flex; top: 60px;}
 	#header #mypic { align-self: center; margin-left: 10px; }
-	#header p { font-size: 1rem; padding: 0; margin: 0; }
-	#header ul { font-size: 1rem; }
+	#header p { font-size: 1.25rem; padding: 10px; margin: 0; }
+	#header ul { font-size: 1.25rem; }
+}
+
+@media screen and (max-width: 853px) and (max-height: 480px) {
+	#header-info { display: flex; top: 90px;}
+	#header #mypic { align-self: center; margin-left: 10px; }
+	#header p { font-size: 1.25rem; padding: 0; margin: 0; }
+	#header ul { font-size: 1.25rem; }
 }
 
 @media screen and (max-width: 812px) and (max-height: 375px) { 
@@ -467,13 +472,25 @@ footer p a:hover {
 	#header ul { font-size: 1.25rem; }
 }
 
-@media screen and (max-width: 896px) and (max-height: 414px) {
+@media screen and (max-width: 667px) and (max-height: 375px) { 
 	#header-info { display: flex; top: 60px;}
 	#header #mypic { align-self: center; margin-left: 10px; }
-	#header p { font-size: 1.25rem; padding: 10px; margin: 0; }
-	#header ul { font-size: 1.25rem; }
+	#header p { font-size: 1rem; padding: 0; margin: 0; }
+	#header ul { font-size: 1rem; }
 }
 
+@media screen and (max-width: 600px) {
+	header .center { width: 95%; }
+	#header p { font-size: 1.5rem; }
+	#header ul { font-size: 1.5rem; }
+	#skills { padding-bottom: 0; }
+}
+@media screen and (max-width: 568px) and (max-height: 320px) {
+	#header-info { display: flex; top: 25px;}
+	#header #mypic { align-self: center; margin-left: 10px; }
+	#header p { font-size: 1rem; padding: 0; margin: 0; }
+	#header ul { font-size: 1rem; }
+}
 @media screen and (max-width: 480px) {
 	#header-info { top: 10vh; }
 	#header p { font-size: 1.25rem; }
