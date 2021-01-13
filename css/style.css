@@ -154,6 +154,13 @@ h2.section {
 	-ms-transition-property: width, background-color;
 	-o-transition-property: width, background-color;
 	transition-property: width, background-color;
+	box-shadow: 0.625rem 0.625rem 3.75rem #bebebe, -0.625rem -0.625rem 3.75rem #ffffff;
+}
+
+#skills .chart:hover,
+#skills .chart:focus,
+#skills .chart:active {
+	box-shadow: 1.25rem 1.25rem 3.75rem #bebebe, -1.25rem -1.25rem 3.75rem #ffffff;
 }
 
 #skills .chart-title {
