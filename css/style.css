@@ -383,6 +383,13 @@ h2.section {
 	background-color: rgb(214,226,236);
 }
 
+.social-icons {
+  text-align: center;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
 #status {
 	width: 90%;
 	max-width: 31.25rem;
