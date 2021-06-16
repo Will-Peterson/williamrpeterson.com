@@ -390,6 +390,10 @@ h2.section {
   justify-content: center;
 }
 
+.social-icons a {
+  margin: 5px;
+}
+
 #status {
 	width: 90%;
 	max-width: 31.25rem;
